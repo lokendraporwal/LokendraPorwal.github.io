@@ -4,12 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home</title>
+    <title>Achievement</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
-    <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
 <body>
@@ -20,36 +19,14 @@
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
-					<li class="nav-item" role="presentation"><a class="nav-link" href="#achv">Achievements</a></li>
+					<li class="nav-item" role="presentation"><a class="nav-link" href="achievements.html">Achievements</a></li>
                     <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">CV</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <main class="page lanidng-page">
-        <section class="portfolio-block block-intro">
-            <div class="container"><div class="avatar" style="background-image:url('assets/img/avatars/avatar.png');"></div>
-                <div class="about-me">
-                    <p>Hello! I am Lokendra Kumar Ved. I work as Web developer and Android Developer. I have passion to learn new Technology.</p></div>
-            </div>
-        </section>
-        <section class="portfolio-block photography">
-            <div class="container"  id="achv">
-			<div class="heading">
-                    <h2 id="achv">achievements</h2><br>
-					<h2>certificate</h2>
-                </div>
-                <div class="row no-gutters">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/certificate/hashcode.png" /></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/certificate/kickstart.png" /></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/certificate/ml.png" /></a></div>
-                </div>
-				<div>
-					<p align="right"><a href="achievements.html#certificate"><u>more...</u></a></p>
-				</div>
-            </div>
-        </section>
-		<section class="portfolio-block projects-cards">
+    <main class="page projects-page" id="badges">
+        <section class="portfolio-block projects-cards">
             <div class="container">
                 <div class="heading">
                     <h2>Badges</h2>
@@ -74,42 +51,24 @@
                             </div>
                         </div>
                     </div>
-					</div>
-					<div>
-					<p align="right"><a href="achievements.html#badges"><u>more...</u></a></p>
-				</div>
-					</div>
-				</section>
-        <section class="portfolio-block skills">
-            <div class="container">
-                <div class="heading">
-                    <h2>Special Skills</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/tech/Kubernetes.png" alt="Card Image" /></a>
                             <div class="card-body">
-                                <h3 class="card-title">Web Design &amp; Development</h3>
-                                <p class="card-text">I Work on Web Design and development using HTML, CSS, JavaScript, Bootstrap.&nbsp;</p>
+                                <h6><a href="#">&nbsp;Kubernetes in the Google Cloud<br><br></a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-social-android"></i></div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/tech/KubernetesSolutions.png" alt="Card Image" /></a>
                             <div class="card-body">
-                                <h3 class="card-title">Android App Development</h3>
-                                <p class="card-text">I have developed apps using java and flutter. I don't have any play store account yet. Will publish my apps soon.</p>
+                                <h6><a href="#"><br>Kubernetes Solutions<br><br></a></h6>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-cloud"></i></div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="assets/img/tech/SIF.png" alt="Card Image" /></a>
                             <div class="card-body">
-                                <h3 class="card-title">Cloud Services</h3>
-                                <p class="card-text">I have working knowledge of Googel Cloud Platfrom, Kubernetes on GCP and docker.</p>
+                                <h6><br>Security &amp; Identity Fundamentals<br><br></h6>
                             </div>
                         </div>
                     </div>
@@ -117,23 +76,29 @@
             </div>
         </section>
     </main>
-    <section class="portfolio-block website gradient">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-12 col-lg-5 offset-lg-1 text">
-                    <h3>My Portofolio</h3>
-                    <p>This is my first live project as a website you can visit my GitHub Repository to have more closure look to my projects.</p>
+    <main class="page projects-page" id="certificate">
+        <section class="portfolio-block photography">
+            <div class="container"  id="achv">
+			<div class="heading">
+                    <h2>Certificate</h2>
                 </div>
-                <div class="col-md-12 col-lg-5">
-                    <div class="portfolio-laptop-mockup">
-                        <div class="screen"><div class="screen-content" style="background-image:url('assets/img/tech/s.png');"></div></div>
-                        <div class="keyboard"></div>
-                    </div>
+                <div class="row no-gutters">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/certificate/hashcode.png" /></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/certificate/kickstart.png" /></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/certificate/ml.png" /></a></div>
+                </div>
+				<div class="row no-gutters center">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/texas.png" /></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/flut.png" /></a></div>
+                </div>
+				<div class="row no-gutters center">
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/cg.png" /></a></div>
+                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/moodi.png" /></a></div>
                 </div>
             </div>
-        </div>
-    </section>
-    <footer class="page-footer">
+        </section>
+    </main>
+     <footer class="page-footer">
         <div class="container">
             <div class="links"><a href="#">About me</a><a href="#">Contact me</a><a href="/project-grid-cards.html">Projects</a></div>
             <div class="social-icons">
