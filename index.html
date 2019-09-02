@@ -34,6 +34,10 @@
 		var txt = 'Lokendra Porwal'; /* The text */
 		var speed = 50; /* The speed/duration of the effect in milliseconds */
 		function typeWriter() {
+			if(i==txt.length){
+				i=0;
+				document.getElementById("name").innerHTML="";
+			}
 			if (i < txt.length) {
 				document.getElementById("name").innerHTML += txt.charAt(i);
 				i++;
